@@ -1,0 +1,44 @@
+body{
+  font-family: 'Lora', serif;
+<<<<<<< HEAD
+  font-size: 12px;
+=======
+  font-size: 14px;
+>>>>>>> f63550c130b1bbfe7eb29d27151f70caf018795f
+}
+
+
+header, section, footer {
+  margin: 70px;
+}
+
+
+h3 {
+  margin: 15px;
+}
+
+.img-fliud {
+  max-width: 100%;
+  max-height: 320px;
+  height: auto;
+}
+
+ .city-item a{
+  color: #000000;
+  text-decoration: none;
+ }
+ .city-item a:hover{
+  font-weight: bold;
+ }
+
+.topbutton {
+position:fixed;
+bottom:20px;
+right:20px;
+cursor:pointer;
+color:blue;
+font-size:28px;
+}
+
+
+

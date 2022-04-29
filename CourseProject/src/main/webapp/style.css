@@ -1,0 +1,106 @@
+footer {
+    font-size:14px;
+    }
+
+h1 {
+    margin: 50px;
+    font-size: 90px;
+    font-family: 'Marck Script', cursive, bold;
+
+}
+
+h3.city-header {
+    font-family: 'Pacifico', cursive;
+}
+
+/*Кнопка прокрутки*/
+.topbutton {
+position:fixed;
+bottom:20px;
+right:20px;
+cursor:pointer;
+font-size:28px;
+color: #2f88ed;
+opacity: 0.8;
+}
+
+.cloud {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    background: url(/background.jpg);
+    background-size: cover;
+}
+.cloudcontent {
+    position: relative;
+    padding:30px;
+    color: black;
+    font-size:22px;
+    font-weight:bold;
+    z-index:100;
+}
+.cloud img {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+@-webkit-keyframes animCloud {
+    from {
+        -webkit-transform: translateX(100%)
+    }
+    to {
+        -webkit-transform: translateX(-100%)
+    }
+}
+@-moz-keyframes animCloud {
+    from {
+        -moz-transform: translateX(100%)
+    }
+    to {
+        -moz-transform: translateX(-100%)
+    }
+}
+@keyframes animCloud {
+    from {
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        transform: translateX(100%)
+    }
+    to {
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%)
+    }
+}
+.cloud1 {
+    -webkit-animation: animCloud 20s infinite linear;
+    -moz-animation: animCloud 20s infinite linear;
+    animation: animCloud 20s infinite linear
+}
+.cloud2 {
+    -webkit-animation: animCloud 40s infinite linear;
+    -moz-animation: animCloud 40s infinite linear;
+    animation: animCloud 40s infinite linear
+}
+.cloud3 {
+    -webkit-animation: animCloud 60s infinite linear;
+    -moz-animation: animCloud 60s infinite linear;
+    animation: animCloud 60s infinite linear
+}
+.cloud4 {
+    -webkit-animation: animCloud 80s infinite linear;
+    -moz-animation: animCloud 80s infinite linear;
+    animation: animCloud 80s infinite linear
+}

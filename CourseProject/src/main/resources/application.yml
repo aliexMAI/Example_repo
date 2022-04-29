@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+db:
+  url: jdbc:sqlite:db/simple_database.db
+
+weather:
+  appKey: 35d12644ccffa0f9023ecfe03df49170
+
+image:
+  url: https://yandex.ru/images/search?text=
+
+cityNear:
+  radius: 1000
