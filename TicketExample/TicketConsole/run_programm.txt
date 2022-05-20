@@ -1,0 +1,6 @@
+
+compile:
+  javac -cp jackson-databind-2.13.1.jar;jackson-core-2.13.3.jar;jackson-annotations-2.13.3.jar TicketsApp.java
+
+launch:
+  java -cp jackson-databind-2.13.1.jar;jackson-core-2.13.3.jar;jackson-annotations-2.13.3.jar TicketsApp.java tickets.json
